@@ -1,6 +1,25 @@
 # food-data-central-client-swift
-Swift terminal application which allows you to search for foods in the USDA FoodCentral database.
+Swift terminal application which allows you to search for foods in the USDA FoodCentral database. Outputs a variable number of results display the following
+* Description
+* Brand
+* Calories (I believe this defaults to 100g/100mL units)
+* Fat
+* Protein
+* Carbs
 
+## Known Issues
+The app works as expected but the quality of the search results are less than desireable. Since there isn't a popularity score associated with a certain food, the top result is usually an irrelevant food. For example, if you are searching for something generic like "apple", the top five results are
+* Crisp, Apple, Apple Dessert
+* Apple, Candied
+* Apple Chips
+* Apple, Fried
+* Apple Cider
+
+
+## References
+
+  [1] [FoodData Central API Documentation](https://fdc.nal.usda.gov/api-guide.html)
+  
 ## Example output
 
 ```
