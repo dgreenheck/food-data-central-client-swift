@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DAB86722442526B008F5D17 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB86712442526B008F5D17 /* main.swift */; };
+		7DAB86792442DA1B008F5D17 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB86782442DA1B008F5D17 /* Food.swift */; };
+		7DAB867B2442DA24008F5D17 /* FoodNutrient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB867A2442DA24008F5D17 /* FoodNutrient.swift */; };
+		7DAB867D2442DAE6008F5D17 /* FoodCentralKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB867C2442DAE6008F5D17 /* FoodCentralKeys.swift */; };
+		7DAB867F244584DB008F5D17 /* FoodCentralClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB867E244584DB008F5D17 /* FoodCentralClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7DAB866C2442526B008F5D17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7DAB866E2442526B008F5D17 /* FoodAPIClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FoodAPIClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAB86712442526B008F5D17 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7DAB86782442DA1B008F5D17 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		7DAB867A2442DA24008F5D17 /* FoodNutrient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNutrient.swift; sourceTree = "<group>"; };
+		7DAB867C2442DAE6008F5D17 /* FoodCentralKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCentralKeys.swift; sourceTree = "<group>"; };
+		7DAB867E244584DB008F5D17 /* FoodCentralClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCentralClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DAB866B2442526B008F5D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DAB86652442526B008F5D17 = {
+			isa = PBXGroup;
+			children = (
+				7DAB86702442526B008F5D17 /* FoodAPIClient */,
+				7DAB866F2442526B008F5D17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DAB866F2442526B008F5D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DAB866E2442526B008F5D17 /* FoodAPIClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DAB86702442526B008F5D17 /* FoodAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				7DAB86712442526B008F5D17 /* main.swift */,
+				7DAB86782442DA1B008F5D17 /* Food.swift */,
+				7DAB867A2442DA24008F5D17 /* FoodNutrient.swift */,
+				7DAB867C2442DAE6008F5D17 /* FoodCentralKeys.swift */,
+				7DAB867E244584DB008F5D17 /* FoodCentralClient.swift */,
+			);
+			path = FoodAPIClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DAB866D2442526B008F5D17 /* FoodAPIClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DAB86752442526B008F5D17 /* Build configuration list for PBXNativeTarget "FoodAPIClient" */;
+			buildPhases = (
+				7DAB866A2442526B008F5D17 /* Sources */,
+				7DAB866B2442526B008F5D17 /* Frameworks */,
+				7DAB866C2442526B008F5D17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodAPIClient;
+			productName = FoodAPIClient;
+			productReference = 7DAB866E2442526B008F5D17 /* FoodAPIClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DAB86662442526B008F5D17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Max Q Software LLC";
+				TargetAttributes = {
+					7DAB866D2442526B008F5D17 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 7DAB86692442526B008F5D17 /* Build configuration list for PBXProject "FoodAPIClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DAB86652442526B008F5D17;
+			productRefGroup = 7DAB866F2442526B008F5D17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DAB866D2442526B008F5D17 /* FoodAPIClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DAB866A2442526B008F5D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAB86722442526B008F5D17 /* main.swift in Sources */,
+				7DAB86792442DA1B008F5D17 /* Food.swift in Sources */,
+				7DAB867B2442DA24008F5D17 /* FoodNutrient.swift in Sources */,
+				7DAB867F244584DB008F5D17 /* FoodCentralClient.swift in Sources */,
+				7DAB867D2442DAE6008F5D17 /* FoodCentralKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7DAB86732442526B008F5D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DAB86742442526B008F5D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7DAB86762442526B008F5D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V74XQ3CF3T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7DAB86772442526B008F5D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V74XQ3CF3T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DAB86692442526B008F5D17 /* Build configuration list for PBXProject "FoodAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAB86732442526B008F5D17 /* Debug */,
+				7DAB86742442526B008F5D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DAB86752442526B008F5D17 /* Build configuration list for PBXNativeTarget "FoodAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAB86762442526B008F5D17 /* Debug */,
+				7DAB86772442526B008F5D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DAB86662442526B008F5D17 /* Project object */;
+}
